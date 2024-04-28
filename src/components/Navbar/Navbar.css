@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 0;
 }
@@ -11,4 +11,10 @@
   flex-direction: row;
   width: 70%;
   gap: 0 5%;
+  list-style-type: none;
+}
+
+.navbar .nav-menu a {
+  text-decoration: none;
+  color: #666;
 }

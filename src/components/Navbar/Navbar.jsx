@@ -2,45 +2,9 @@ import React from "react";
 import LogoProject from "../assets/Logo.svg";
 import "../Navbar/Navbar.css";
 import {Link} from "react-router-dom";
+import {PUBLIC_PAGES} from "../helpers/const";
 
 const Navbar = () => {
-  const PUBLIC_PAGES = [
-    {
-      link: "/",
-      page: "Главная",
-      id: 1,
-    },
-    {
-      link: "/about-us",
-      page: "О нас",
-      id: 2,
-    },
-    {
-      link: "/advantages",
-      page: "Преимущества",
-      id: 3,
-    },
-    {
-      link: "/contacts",
-      page: "Контакты",
-      id: 4,
-    },
-    {
-      link: "/products",
-      page: "О продукте",
-      id: 5,
-    },
-    {
-      link: "/verification-center",
-      page: "УЦ",
-      id: 6,
-    },
-    {
-      link: "/documents",
-      page: "Документы",
-      id: 7,
-    },
-  ];
   return (
     <div className='container'>
       <nav className='navbar'>
@@ -49,9 +13,11 @@ const Navbar = () => {
         </div>
         <ul className='nav-menu'>
           {PUBLIC_PAGES.map((page) => (
-            <Link to={page.link} key={page.id}>
-              {page.page}
-            </Link>
+            <li>
+              <Link to={page.link} key={page.id}>
+                {page.page}
+              </Link>
+            </li>
           ))}
         </ul>
         <div className='nav-btn'>
