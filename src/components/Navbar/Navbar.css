@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navbar .nav-menu {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  gap: 0 5%;
+}
