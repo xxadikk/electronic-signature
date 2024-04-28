@@ -1,10 +1,14 @@
 import React from 'react';
+import Tokenblock from '../components/Home/Tokenblock';
 
 const HomePage = () => {
     return (
-        <div>
-            HomePage      
-        </div>
+        <>
+            <Tokenblock/>
+            {/* <Securityblock/>
+            <Advantagesblock/>
+            <Requestblock/> */}
+        </>
     );
 };
 

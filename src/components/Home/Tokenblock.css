@@ -1,0 +1,40 @@
+.tokenblock{
+  background-color: #ffffff;
+  height: 500px;
+  margin: 30px 0 30px 0;
+  background: url(../assets/pattern.png) 67% 80% no-repeat, url(../assets/fingerprint-img.png) 92% 25% no-repeat, url(../assets/tokenbackground.png) no-repeat; 
+  background-size: 220px, 350px, cover;
+  border-radius: 16px;
+}
+.content{
+  height: 100%;
+  padding: 50px;
+}
+.content h2{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.content p{
+  font-size: 26px;
+  color: rgba(255, 255, 255, 70%);
+  margin-bottom: 100px;
+}
+.benefits{
+  width: 50%;
+  font-size: 18px;
+}
+.benefits-first{
+  display: flex;
+}
+.benefits-first div{
+  padding: 15px 15px;
+  background-color: rgba(255, 255, 255, 20%);
+  border-radius: 16px;
+  margin-right: 20px;
+}
+.benefits-second{
+  margin-left: 40px;
+}
+.benefits-second div{
+  margin-top: 15px;
+}
