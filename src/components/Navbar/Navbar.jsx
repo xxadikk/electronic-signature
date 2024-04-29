@@ -6,24 +6,26 @@ import {PUBLIC_PAGES} from "../helpers/const";
 
 const Navbar = () => {
   return (
-    <div className='container'>
-      <nav className='navbar'>
-        <div class='nav-logo'>
-          <img src={LogoProject} alt='Logo' />
-        </div>
-        <ul className='nav-menu'>
-          {PUBLIC_PAGES.map((page) => (
-            <li>
-              <Link to={page.link} key={page.id}>
-                {page.page}
-              </Link>
-            </li>
-          ))}
-        </ul>
-        <div className='nav-btn'>
-          <button>Начать</button>
-        </div>
-      </nav>
+    <div  className='navbarblock'>
+      <div className='container'>
+        <nav className='navbar'>
+          <div class='nav-logo'>
+            <img src={LogoProject} alt='Logo' />
+          </div>
+          <ul className='nav-menu'>
+            {PUBLIC_PAGES.map((page) => (
+              <li>
+                <Link to={page.link} key={page.id}>
+                  {page.page}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className='nav-btn'>
+            <button>Начать</button>
+          </div>
+        </nav>
+      </div>
     </div>
   );
 };
