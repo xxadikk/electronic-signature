@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.securityblock {
+  background-color: #030b18;
+  border-radius: 30px;
+}
+
+.container-securityblock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+.securityblock-body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  gap: 15px;
+}
+
+.icon-project img {
+  width: 80px;
+}
+
+.title-security {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+.description-security {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.patern-security {
+  margin: 30px 0;
+}
+.patern-security img {
+  width: 45%;
+}
