@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 .tokenblock{
   background-color: #ffffff;
   height: 500px;
@@ -13,11 +15,16 @@
 .content h2{
   font-size: 40px;
   margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .content p{
   font-size: 26px;
   color: rgba(255, 255, 255, 70%);
   margin-bottom: 100px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 .benefits{
   width: 50%;
@@ -31,6 +38,8 @@
   background-color: rgba(255, 255, 255, 20%);
   border-radius: 16px;
   margin-right: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 .benefits-second{
   margin-left: 40px;

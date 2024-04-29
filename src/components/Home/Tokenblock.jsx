@@ -7,7 +7,7 @@ const Tokenblock = () => {
       <div className="tokenblock">
         <div className="content">
           <h2>Универсальный токен</h2>
-          <p>Подписывайте документы онлайн,<br/> экономьте время и деньги</p>
+          <p>Подписывайте документы <i>онлайн</i>,<br/> <i>экономьте</i> время и деньги</p>
           <div className="benefits">
             <div className="benefits-first">
               <div>Электронная подпись</div>
