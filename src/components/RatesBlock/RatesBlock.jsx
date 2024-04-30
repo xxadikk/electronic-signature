@@ -31,7 +31,7 @@ const RatesBlock = () => {
               <p>Хранение ключей шифрования Ключ электронной подписи</p>
               <button className="btn">Заказать</button>
             </div>
-            <div className="RatesBlock-section__block">
+            <div className="RatesBlock-section__block block-black">
               <div>
                 <img src={workIcon} alt="workIcon" />
               </div>

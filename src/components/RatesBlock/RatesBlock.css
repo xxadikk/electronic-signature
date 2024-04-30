@@ -7,7 +7,7 @@
 /* .RatesBlock * img {
   width: 80%;
 } */
-.RatesBlock * span {
+.RatesBlock * {
   font-size: 26px;
   font-family: "Inter", sans-serif;
   font-weight: 300;
@@ -47,8 +47,23 @@
   border-radius: 20px;
   padding: 30px 30px;
 }
-
+.RatesBlock-section .block-black {
+  background-color: #030b18;
+}
+.block-black span {
+  color: white;
+}
+.block-black h5 {
+  color: white;
+}
+.block-black p {
+  color: #a8a8a8;
+}
+.block-black p i {
+  color: #ffffff;
+}
 .RatesBlock-section__block button {
   margin-top: 60px;
   padding: 15px 60px;
+  color: white;
 }
