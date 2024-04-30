@@ -55,14 +55,16 @@
 .btn-block {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 10px 0;
+  gap: 20px 0;
   padding: 40px 0;
 }
 
 .btn-block .btn {
-  width: 210px;
-  height: 45px;
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
 }
 .btn-block .btn:last-child {
   background-color: white;

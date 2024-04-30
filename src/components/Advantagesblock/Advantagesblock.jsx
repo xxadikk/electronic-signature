@@ -12,7 +12,7 @@ const Advantagesblock = () => {
     <div className="advantagesblock">
       <div className="container">
         <div className="advantagesblock__body">
-          <div className="advantages-title">
+          <div className="container-title">
             <h4>Преимущества</h4>
           </div>
           <div className="advantagesTop-block">
@@ -21,7 +21,9 @@ const Advantagesblock = () => {
                 PKi - поможет Вам доставить все отчёты <i>в электронном виде</i>
               </span>
               <div className="block__body-section">
-                <p>Во все гос. органы</p>
+                <div className="sectionTitle">
+                  <p>Во все гос. органы</p>
+                </div>
                 <div className="sectionIcon">
                   <div>
                     <img src={kyrgyzTaxService} alt="kyrgyzTaxService" />

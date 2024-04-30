@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.RatesBlock {
+  padding: 100px 0;
+}
+/* .RatesBlock * img {
+  width: 80%;
+} */
+.RatesBlock * span {
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+.RatesBlock * h5 {
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+.RatesBlock * p i {
+  color: #000000a6;
+}
+
+.RatesBlock * p {
+  color: #455b66;
+  width: 70%;
+  height: 100%;
+}
+
+.RatesBlock__body .RatesBlock-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.RatesBlock-section .RatesBlock-section__block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 28%;
+  gap: 15px 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px 30px;
+}
+
+.RatesBlock-section__block button {
+  margin-top: 60px;
+  padding: 15px 60px;
+}
