@@ -1,0 +1,32 @@
+.applicationBlock * {
+  color: black;
+}
+
+.applicationBlock__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.application-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.application-form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+.application-form__input input,
+input:focus,
+input:active {
+  border: none;
+  outline: none;
+}
+.application-form__input input {
+  /* height: 50px; */
+  padding: 20px 30px;
+}
