@@ -66,22 +66,22 @@ const Footer = () => {
                 <ul>
                   <li>
                     <img src={LogoContact} alt='Contact' />
-                    <a href='#'>+996 (312) 98-61-00</a>
+                    <a href='#'>+996 (777) 22-03-20</a>
                   </li>
                   <li>
                     <img src={LogoMail} alt='Mail' />
-                    <a href=''>Bsmart@gmail.com</a>
+                    <a href=''>pki.office.kg@gmail.com</a>
                   </li>
                   <li>
                     <img src={LogoMap} alt='Map' />
-                    <a href='#'>Каралаева 2</a>
+                    <a href='#'>г.Бишкек, ул. Найманбаева 31</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
           <div className='top-block'>
-            <span>© 2024 ОсОО “PKi”</span>
+            <span>© 2024 ОсОО “Смарт счет”</span>
           </div>
         </div>
       </div>
