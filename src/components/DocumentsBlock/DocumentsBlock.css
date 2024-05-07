@@ -1,0 +1,50 @@
+.documentsBlock {
+  margin-bottom: 100px;
+}
+
+.documentsBlock * h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: -0.5299999713897705px;
+  color: #000000;
+}
+.documentsBlock * a {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.33000001311302185px;
+  color: #1b72ff;
+}
+.documentsBlock__body {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 32px;
+}
+
+.documentsBlock-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.documentsBlock-documents {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.documentsBlock-document {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 30%;
+}

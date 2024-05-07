@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import DocumentsBlock from "../components/DocumentsBlock/DocumentsBlock";
 
 const DocumentsPage = () => {
-    return (
-        <div>
-           Документы 
-        </div>
-    );
+  return (
+    <div>
+      <DocumentsBlock  />
+    </div>
+  );
 };
 
 export default DocumentsPage;

@@ -24,7 +24,25 @@ const VerificationCenter = () => {
               </span>
             </div>
             <div className="verificationCenter-block">
-        
+              <h4>Прейскурант на услуги Удостоверяющего центра</h4>
+              <div className="verificationCenter-block-cards">
+                <div className="verificationCenter-block-card">
+                  <p>
+                    Генерация ключей ЭП руководителя (1-я ЭП) при хранении на
+                    Облачном
+                  </p>
+                  <h3>1500 сом/1 ед</h3>
+                  <span>на 1 год</span>
+                </div>
+                <div className="verificationCenter-block-card">
+                  <p>
+                    Генерация ключей ЭП с записью на физический защищенный
+                    носитель "RuToken"
+                  </p>
+                  <h3>1200 сом/1 ед</h3>
+                  <span>на 1 год</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
