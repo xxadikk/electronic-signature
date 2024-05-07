@@ -1,5 +1,5 @@
 import React from "react";
-import "./Tokenblock.css";
+import "../Tokenblock/Tokenblock.css";
 
 const Tokenblock = () => {
   return (

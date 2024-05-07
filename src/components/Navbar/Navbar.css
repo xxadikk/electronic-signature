@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
-
+.nav {
+  margin-top: 78px;
+}
 .navbarblock {
   background-color: #ffffff;
+  position: fixed; /* Фиксировать navbar сверху */
+  top: 0; /* Позиционировать navbar по верхнему краю */
+  width: 100%; /* Занимать всю ширину экрана */
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  transition: background-color 200ms ease;
 }
 .navbar {
   display: flex;
@@ -25,10 +32,25 @@
   text-decoration: none;
   color: #666;
 }
+.navbar .nav-menu a:hover {
+  color: #1b72ff;
+}
 .nav-btn {
   width: 5%;
 }
 
 .nav-btn .btn {
   padding: 10px 35px;
+}
+
+.active {
+  color: #1b72ff !important;
+  border-bottom: 2px solid #1b72ff;
+  padding: 0 0 2px 0;
+}
+.navbarblock.scroll {
+  background-color: #030b18e7;
+}
+.navbarblock.scroll * a {
+  color: white;
 }
