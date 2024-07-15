@@ -1,0 +1,31 @@
+.aboutUsInfo {
+  margin: 30px 0 100px 0;
+}
+.aboutUsInfo * h4 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: -0.5299999713897705px;
+  text-align: left;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+
+.aboutUsInfo * span {
+  color: #455b66;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.33000001311302185px;
+  text-align: left;
+}
+
+.aboutUsInfo__body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 60px 90px;
+}

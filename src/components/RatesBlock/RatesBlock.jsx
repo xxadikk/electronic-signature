@@ -35,8 +35,8 @@ const RatesBlock = () => {
               <div>
                 <img src={workIcon} alt="workIcon" />
               </div>
-              <span>РУТОКЕН+ЭЦП</span>
-              <h5>4000 сом</h5>
+              <span>Jacarta+ЭЦП</span>
+              <h5>4200 сом</h5>
               <p>
                 Но мы предлагаем сделать все вместе чтобы помочь Вам{" "}
                 <i>защитить ваши данные на 100 %</i>

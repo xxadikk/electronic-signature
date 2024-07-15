@@ -31,7 +31,7 @@ const VerificationCenter = () => {
                     Генерация ключей ЭП руководителя (1-я ЭП) при хранении на
                     Облачном
                   </p>
-                  <h3>1500 сом/1 ед</h3>
+                  <h3>4200 сом/1 ед</h3>
                   <span>на 1 год</span>
                 </div>
                 <div className="verificationCenter-block-card">
@@ -39,7 +39,7 @@ const VerificationCenter = () => {
                     Генерация ключей ЭП с записью на физический защищенный
                     носитель "RuToken"
                   </p>
-                  <h3>1200 сом/1 ед</h3>
+                  <h3>4200 сом/1 ед</h3>
                   <span>на 1 год</span>
                 </div>
               </div>
