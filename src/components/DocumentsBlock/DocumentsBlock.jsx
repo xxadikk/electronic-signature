@@ -33,6 +33,17 @@ const DocumentsBlock = () => {
                   Документы на получение КЭП для организаций и ИП
                 </a>
               </div>
+              <div className="documentsBlock-document">
+                <div>
+                  <img src={pdfIcon} alt="pdfIcon" />
+                </div>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/19aS5K-s2IagWhiBLsz3QBIJtwKNRdXll/view?usp=sharing"
+                >
+                  Регламент Удостоверяющего ЦентраОсОО «Смарт Счет»
+                </a>
+              </div>
               {/* <div className="documentsBlock-document">
                 <div>
                   <img src={pdfIcon} alt="pdfIcon" />

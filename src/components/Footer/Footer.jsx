@@ -66,6 +66,14 @@ const Footer = () => {
                 <ul>
                   <li>
                     <img src={LogoContact} alt="Contact" />
+                    <a href="#">+996 (550) 34 56 77</a>
+                  </li>
+                  <li>
+                    <img src={LogoContact} alt="Contact" />
+                    <a href="#">+996 (223) 34 56 77</a>
+                  </li>
+                  <li>
+                    <img src={LogoContact} alt="Contact" />
                     <a href="#">+996 (777) 22-03-20</a>
                   </li>
                   <li>

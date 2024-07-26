@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import AdvantagesPagesBlock from "../components/AdvantagesPagesBlock/AdvantagesPagesBlock";
 
 const AdvantagesPage = () => {
-    return (
-        <div>
-           Преимущества 
-        </div>
-    );
+  return (
+    <>
+      <AdvantagesPagesBlock />
+    </>
+  );
 };
 
 export default AdvantagesPage;

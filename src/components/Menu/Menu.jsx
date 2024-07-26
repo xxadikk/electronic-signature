@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import "../Menu/Menu.css";
 import { PUBLIC_PAGES } from "../helpers/const";
 
@@ -7,6 +7,7 @@ const Menu = () => {
   const location = useLocation();
   const [newPath, setNewPath] = useState("");
   const path = location.pathname;
+  const navigate = useNavigate();
 
   function updatePath() {
     PUBLIC_PAGES.map((item) => {
@@ -28,7 +29,7 @@ const Menu = () => {
         <div className="menu">
           <div className="container">
             <div className="menu-block">
-              <div>Главная</div>
+              <div onClick={() => navigate("/")}>Главная</div>
               <ul>
                 <li>{newPath}</li>
               </ul>

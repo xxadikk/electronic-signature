@@ -11,6 +11,11 @@
   color: #101828;
 }
 
+.menu-block div:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .menu-block ul li {
   color: #617e8c;
 }

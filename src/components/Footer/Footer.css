@@ -40,7 +40,16 @@
   gap: 10px 0;
   list-style-type: none;
 }
+.block_menu a:hover {
+  color: #1b72ff;
+}
+.block_social a:hover {
+  color: #1b72ff;
+}
 
+.block_contacts a:hover {
+  color: #1b72ff;
+}
 .right-block {
   width: 50%;
   justify-content: end;

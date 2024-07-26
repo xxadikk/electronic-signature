@@ -47,4 +47,9 @@
   align-items: center;
   gap: 12px;
   width: 30%;
+  transition: 500ms;
+}
+
+.documentsBlock-document a:hover {
+  text-decoration: underline;
 }

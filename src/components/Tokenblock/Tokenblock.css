@@ -72,3 +72,95 @@
   background-color: white;
   color: black;
 }
+
+@media (min-width: 940px) and (max-width: 1300px) {
+  .tokenblock {
+    background: url(../assets/pattern.png) 70% 130% no-repeat,
+      url(../assets/fingerprint-img.png) 100% 80% no-repeat,
+      url(../assets/tokenbackground.png) no-repeat;
+    background-size: 220px, 350px, cover;
+  }
+}
+
+@media (min-width: 710px) and (max-width: 940px) {
+  .tokenblock {
+    background: url(../assets/pattern.png) 10% 120% no-repeat,
+      url(../assets/pattern.png) 90% 120% no-repeat,
+      url(../assets/fingerprint-img.png) 100% 20% no-repeat,
+      url(../assets/tokenbackground.png) no-repeat;
+    background-size: 140px, 140px, 200px, cover;
+  }
+  .content h2 {
+    font-size: 36px;
+    width: 50%;
+    margin-bottom: 15px;
+  }
+  .content p {
+    font-size: 24px;
+    width: 90%;
+    margin-bottom: 25px;
+  }
+}
+.benefits-phone__body {
+  display: none;
+}
+.benefits-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.benefits-phone * span {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.benefits-phone .benefits-first {
+  display: flex;
+  flex-direction: column;
+}
+.benefits-phone .benefits-first .one {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 5px 0;
+}
+.benefits-phone .benefits-first .two {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 5px 0;
+}
+
+@media (min-width: 410px) and (max-width: 710px) {
+  .tokenblock {
+    height: 200px;
+    background: url(../assets/pattern.png) 10% 130% no-repeat,
+      url(../assets/pattern.png) 90% 130% no-repeat,
+      url(../assets/fingerprint-img.png) 100% 15% no-repeat,
+      url(../assets/tokenbackground.png) no-repeat;
+    background-size: 80px, 80px, 80px, cover;
+  }
+  .content {
+    padding: 25px;
+  }
+  .content h2 {
+    font-size: 22px;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .content p {
+    font-size: 16px;
+    width: 90%;
+    margin-bottom: 0;
+  }
+  .benefits {
+    display: none;
+  }
+  .benefits-phone__body {
+    display: block;
+  }
+}

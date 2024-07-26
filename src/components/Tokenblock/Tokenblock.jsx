@@ -24,6 +24,26 @@ const Tokenblock = () => {
             </div>
           </div>
         </div>
+        <div className="benefits-phone__body">
+          <div className="benefits-phone">
+            <div className="benefits-first">
+              <div className="one">
+                <span>Электронная подпись</span>
+              </div>
+              <div className="two">
+                <span>Электронная отчетность</span>
+              </div>
+            </div>
+            <div className="benefits-first">
+              <div className="one">
+                <span>Безопасность данных</span>
+              </div>
+              <div className="two">
+                <span>Оптимизация процессов</span>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="btn-block">
           <button className="btn">Начать</button>
           <button className="btn">Узнать больше</button>
