@@ -71,3 +71,41 @@
   background-color: #ffffff;
   color: #000000;
 }
+
+@media (min-width: 710px) and (max-width: 940px) {
+  .advantagesblock * span {
+    font-size: 20px;
+  }
+  .advantagesblock * p {
+    width: 100%;
+  }
+  .block__body {
+    width: 40%;
+    padding: 40px 20px;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 410px) and (max-width: 710px) {
+  .advantagesblock * span {
+    font-size: 15px;
+  }
+  .advantagesblock * p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .block__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 40px 20px;
+    gap: 10px;
+  }
+  .advantagesTop-block,
+  .advantagesBottom-block {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px 0;
+  }
+}

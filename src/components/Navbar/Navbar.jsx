@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import LogoProject from "../assets/Logo.svg";
 import "../Navbar/Navbar.css";
 import { NavLink, useLocation } from "react-router-dom";
@@ -6,6 +6,7 @@ import { NavLink, useLocation } from "react-router-dom";
 const Navbar = () => {
   const { pathname } = useLocation();
   const [isNavbarScrolled, setIsNavbarScrolled] = useState(false);
+  const checkboxRef = useRef(null);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -15,24 +16,34 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll");
   }, []);
+
+  const handleMenuItemClick = () => {
+    if (checkboxRef.current) {
+      checkboxRef.current.checked = false;
+    }
+  };
+
   return (
     <div className="nav">
       <div className={`navbarblock ${isNavbarScrolled ? "scroll" : ""}`}>
         <div className="container">
           <nav className="navbar">
-            <div class="nav-logo">
+            <div className="nav-logo">
               <img src={LogoProject} alt="Logo" />
             </div>
             <ul className="nav-menu">
               <li>
-                <NavLink to="/" className={pathname == "/" ? "active" : ""}>
+                <NavLink
+                  to="/"
+                  className={pathname === "/" ? "active" : ""}
+                >
                   Главная
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   to="/about-us"
-                  className={pathname == "about-us" ? "active" : ""}
+                  className={pathname === "/about-us" ? "active" : ""}
                 >
                   О нас
                 </NavLink>
@@ -40,7 +51,7 @@ const Navbar = () => {
               <li>
                 <NavLink
                   to="/advantages"
-                  className={pathname == "advantages" ? "active" : ""}
+                  className={pathname === "/advantages" ? "active" : ""}
                 >
                   Преимущества
                 </NavLink>
@@ -48,7 +59,8 @@ const Navbar = () => {
               {/* <li>
                 <NavLink
                   to="/contacts"
-                  className={pathname == "contacts" ? "active" : ""}
+                  className={pathname === "/contacts" ? "active" : ""}
+                  onClick={handleMenuItemClick}
                 >
                   Контакты
                 </NavLink>
@@ -56,7 +68,7 @@ const Navbar = () => {
               <li>
                 <NavLink
                   to="/products"
-                  className={pathname == "products" ? "active" : ""}
+                  className={pathname === "/products" ? "active" : ""}
                 >
                   О продукте
                 </NavLink>
@@ -64,7 +76,9 @@ const Navbar = () => {
               <li>
                 <NavLink
                   to="/verification-center"
-                  className={pathname == "verification-center" ? "active" : ""}
+                  className={
+                    pathname === "/verification-center" ? "active" : ""
+                  }
                 >
                   УЦ
                 </NavLink>
@@ -72,8 +86,8 @@ const Navbar = () => {
               <li>
                 <NavLink
                   to="/documents"
-                  className={pathname == "documents" ? "active" : ""}
-                >
+                  className={pathname === "/documents" ? "active" : ""}
+                  >
                   Документы
                 </NavLink>
               </li>
@@ -85,67 +99,69 @@ const Navbar = () => {
         </div>
       </div>
       <nav>
-        <div class="navbar-phone">
-          <div class="container-phone nav-container">
-            <input class="checkbox" type="checkbox" name="" id="" />
-            <div class="hamburger-lines">
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
+        <div className="navbar-phone">
+          <div className="container-phone nav-container">
+            <input className="checkbox" type="checkbox" ref={checkboxRef} />
+            <div className="hamburger-lines">
+              <span className="line line1"></span>
+              <span className="line line2"></span>
+              <span className="line line3"></span>
             </div>
             <div className="nav-btn">
               <button className="btn">Начать</button>
             </div>
-            <div class="menu-items">
-              <li>
-                <NavLink to="/" className={pathname == "/" ? "active" : ""}>
+            <div className="menu-items">
+              <li onClick={handleMenuItemClick}>
+                <NavLink to="/" className={pathname === "/" ? "active" : ""}>
                   Главная
                 </NavLink>
               </li>
-              <li>
+              <li onClick={handleMenuItemClick}>
                 <NavLink
                   to="/about-us"
-                  className={pathname == "about-us" ? "active" : ""}
+                  className={pathname === "/about-us" ? "active" : ""}
                 >
                   О нас
                 </NavLink>
               </li>
-              <li>
+              <li onClick={handleMenuItemClick}>
                 <NavLink
                   to="/advantages"
-                  className={pathname == "advantages" ? "active" : ""}
+                  className={pathname === "/advantages" ? "active" : ""}
                 >
                   Преимущества
                 </NavLink>
               </li>
-              {/* <li>
+              {/* <li onClick={handleMenuItemClick}>
                 <NavLink
                   to="/contacts"
-                  className={pathname == "contacts" ? "active" : ""}
+                  className={pathname === "/contacts" ? "active" : ""}
                 >
                   Контакты
                 </NavLink>
               </li> */}
-              <li>
+              <li onClick={handleMenuItemClick}>
                 <NavLink
                   to="/products"
-                  className={pathname == "products" ? "active" : ""}
+                  className={pathname === "/products" ? "active" : ""}
                 >
                   О продукте
                 </NavLink>
               </li>
-              <li>
+              <li onClick={handleMenuItemClick}>
                 <NavLink
                   to="/verification-center"
-                  className={pathname == "verification-center" ? "active" : ""}
+                  className={
+                    pathname === "/verification-center" ? "active" : ""
+                  }
                 >
                   УЦ
                 </NavLink>
               </li>
-              <li>
+              <li onClick={handleMenuItemClick}>
                 <NavLink
                   to="/documents"
-                  className={pathname == "documents" ? "active" : ""}
+                  className={pathname === "/documents" ? "active" : ""}
                 >
                   Документы
                 </NavLink>

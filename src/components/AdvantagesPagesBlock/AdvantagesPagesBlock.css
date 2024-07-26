@@ -25,9 +25,6 @@
   text-align: left;
 }
 
-/* .AdvantagesPagesBlock__list .list_title {
-} */
-
 .AdvantagesPagesBlock__list li + .AdvantagesPagesBlock__list li {
   margin-top: 1rem;
 }

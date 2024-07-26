@@ -40,3 +40,46 @@
 .patern-security img {
   width: 40%;
 }
+
+@media (min-width: 940px) and (max-width: 1300px) {
+  .container-securityblock {
+    padding: 50px 0;
+  }
+
+  .securityblock-body {
+    width: 65%;
+  }
+}
+@media (min-width: 710px) and (max-width: 940px) {
+  .securityblock-body {
+    width: 75%;
+  }
+
+  .description-security {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 410px) and (max-width: 710px) {
+  .securityblock-body {
+    width: 85%;
+  }
+  .title-security {
+    font-size: 22px;
+  }
+  .description-security {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 410px) {
+  .securityblock-body {
+    width: 88%;
+  }
+  .title-security {
+    font-size: 20px;
+  }
+  .description-security {
+    font-size: 15px;
+  }
+}
