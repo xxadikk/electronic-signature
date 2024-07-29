@@ -33,10 +33,7 @@ const Navbar = () => {
             </div>
             <ul className="nav-menu">
               <li>
-                <NavLink
-                  to="/"
-                  className={pathname === "/" ? "active" : ""}
-                >
+                <NavLink to="/" className={pathname === "/" ? "active" : ""}>
                   Главная
                 </NavLink>
               </li>
@@ -87,7 +84,7 @@ const Navbar = () => {
                 <NavLink
                   to="/documents"
                   className={pathname === "/documents" ? "active" : ""}
-                  >
+                >
                   Документы
                 </NavLink>
               </li>

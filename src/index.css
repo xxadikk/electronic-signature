@@ -23,6 +23,15 @@ a {
   border: none;
   border-radius: 10px;
   background-color: #1b72ff;
+  transition: 0.3s all ease;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  content: "";
+  transition: all 0.2s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .container-title {
@@ -36,4 +45,16 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 36px;
+}
+
+@media (min-width: 410px) and (max-width: 710px) {
+  .container {
+    padding: 0 7%;
+  }
+}
+
+@media (max-width: 410px) {
+  .container {
+    padding: 0 3%;
+  }
 }

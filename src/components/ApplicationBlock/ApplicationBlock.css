@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
 .applicationBlock {
   margin: 30px 0 100px 0;
 }
@@ -16,13 +18,15 @@
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
+  gap: 15px 0;
 }
 .application-form h4 {
+  font-family: "Inter", sans-serif;
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .application-form button {
-  width: 30%;
+  width: 40%;
   padding: 15px 5px;
   color: white;
   font-size: 0.8rem;
@@ -40,10 +44,89 @@ input:active {
   outline: none;
 }
 .application-form__input input {
-  /* height: 50px; */
   padding: 20px 30px;
   border-radius: 20px;
   font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.application-img {
+  display: flex;
+  justify-content: end;
+}
+
+.application-img img {
+  width: 100%;
+}
+
+@media (min-width: 940px) and (max-width: 1300px) {
+  .applicationBlock {
+    margin: 10px 0 60px 0;
+  }
+  .application-img img {
+    width: 90%;
+  }
+}
+
+@media (min-width: 710px) and (max-width: 940px) {
+  .application-form h4 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .applicationBlock {
+    margin: 10px 0 60px 0;
+  }
+  .application-img img {
+    width: 90%;
+  }
+  .application-form__input input {
+    padding: 14px 25px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 410px) and (max-width: 710px) {
+  .application-form h4 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .applicationBlock {
+    margin: 10px 0 60px 0;
+  }
+  .application-form__input input {
+    padding: 14px 25px;
+    font-size: 0.8rem;
+  }
+  .application-img {
+    display: none;
+  }
+
+  .application-form {
+    width: auto;
+  }
+}
+
+@media (max-width: 410px) {
+  .application-form h4 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .applicationBlock {
+    margin: 10px 0 60px 0;
+  }
+  .application-form__input input {
+    padding: 14px 25px;
+    font-size: 0.8rem;
+  }
+  .application-img {
+    display: none;
+  }
+
+  .application-form {
+    width: auto;
+  }
+  .application-form button {
+    padding: 12px 5px;
+  }
 }

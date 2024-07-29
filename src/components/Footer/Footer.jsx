@@ -48,15 +48,23 @@ const Footer = () => {
                 <h3>Соц.Сети</h3>
                 <ul>
                   <li>
-                    <img src={Logofacebook} alt="facebook" />
+                    <div>
+                      {" "}
+                      <img src={Logofacebook} alt="facebook" />
+                    </div>
                     <a href="#">Фейсбук</a>
                   </li>
                   <li>
-                    <img src={LogoInsta} alt="Instagram" />
+                    <div>
+                      {" "}
+                      <img src={LogoInsta} alt="Instagram" />
+                    </div>
                     <a href="#">Инстаграм</a>
                   </li>
                   <li>
-                    <img src={LogoWhatsapp} alt="WhatsApp" />
+                    <div>
+                      <img src={LogoWhatsapp} alt="WhatsApp" />
+                    </div>
                     <a href="">WhatsApp</a>
                   </li>
                 </ul>
@@ -65,23 +73,36 @@ const Footer = () => {
                 <h3>Контакты</h3>
                 <ul>
                   <li>
-                    <img src={LogoContact} alt="Contact" />
+                    <div>
+                      {" "}
+                      <img src={LogoContact} alt="Contact" />
+                    </div>
                     <a href="#">+996 (550) 34 56 77</a>
                   </li>
                   <li>
-                    <img src={LogoContact} alt="Contact" />
+                    <div>
+                      <img src={LogoContact} alt="Contact" />
+                    </div>
                     <a href="#">+996 (223) 34 56 77</a>
                   </li>
                   <li>
-                    <img src={LogoContact} alt="Contact" />
+                    <div>
+                      <img src={LogoContact} alt="Contact" />
+                    </div>
                     <a href="#">+996 (777) 22-03-20</a>
                   </li>
                   <li>
-                    <img src={LogoMail} alt="Mail" />
-                    <a href="">pki.office.kg@gmail.com</a>
+                    <div>
+                      <img src={LogoMail} alt="Mail" />
+                    </div>
+                    <a href="mailto:pki.office.kg@gmail.com">
+                      pki.office.kg@gmail.com
+                    </a>
                   </li>
                   <li>
-                    <img src={LogoMap} alt="Map" />
+                    <div>
+                      <img src={LogoMap} alt="Map" />
+                    </div>
                     <a href="#">г.Бишкек, ул. Байтик-Баатыра 19</a>
                   </li>
                 </ul>

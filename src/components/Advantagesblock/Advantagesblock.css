@@ -87,8 +87,38 @@
 }
 
 @media (min-width: 410px) and (max-width: 710px) {
+  .container-title h4 {
+    font-size: 22px;
+  }
   .advantagesblock * span {
     font-size: 15px;
+  }
+  .advantagesblock * p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .block__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 40px 20px;
+    gap: 10px;
+  }
+  .advantagesTop-block,
+  .advantagesBottom-block {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px 0;
+  }
+}
+
+@media (max-width: 410px) {
+  .container-title h4 {
+    font-size: 20px;
+  }
+  .advantagesblock * span {
+    font-size: 14px;
   }
   .advantagesblock * p {
     width: 100%;

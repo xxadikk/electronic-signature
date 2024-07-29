@@ -69,3 +69,130 @@
   padding: 15px 60px;
   color: white;
 }
+
+@media (min-width: 940px) and (max-width: 1300px) {
+  .RatesBlock * img {
+    width: 70%;
+  }
+}
+
+@media (min-width: 710px) and (max-width: 940px) {
+  .RatesBlock {
+    padding: 20px 0;
+  }
+  .RatesBlock * img {
+    width: 60%;
+  }
+  .RatesBlock * {
+    font-size: 16px;
+  }
+  .RatesBlock * h5 {
+    font-size: 24px;
+  }
+  .RatesBlock * p {
+    color: #455b66;
+    width: 95%;
+    height: 100%;
+  }
+
+  .RatesBlock-section .RatesBlock-section__block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 23%;
+    padding: 20px 25px;
+  }
+
+  .RatesBlock-section__block button {
+    margin-top: 10px;
+    width: 100%;
+    text-align: start;
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 410px) and (max-width: 710px) {
+  .RatesBlock {
+    padding: 20px 0;
+  }
+  .RatesBlock * img {
+    width: 60%;
+  }
+  .RatesBlock * {
+    font-size: 15px;
+  }
+  .RatesBlock * h5 {
+    font-size: 22px;
+  }
+  .RatesBlock * p {
+    color: #455b66;
+    width: 95%;
+    height: 100%;
+  }
+  .RatesBlock__body .RatesBlock-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px 0px;
+  }
+  .RatesBlock-section .RatesBlock-section__block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: auto;
+    padding: 25px 40px;
+  }
+
+  .RatesBlock-section__block button {
+    margin-top: 10px;
+    width: 60%;
+    text-align: start;
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 410px) {
+  .RatesBlock {
+    padding: 20px 0;
+  }
+  .RatesBlock * img {
+    width: 60%;
+  }
+  .RatesBlock * {
+    font-size: 14px;
+  }
+  .RatesBlock * h5 {
+    font-size: 20px;
+  }
+  .RatesBlock * p {
+    color: #455b66;
+    width: 100%;
+    height: 100%;
+  }
+  .RatesBlock__body .RatesBlock-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px 0px;
+  }
+  .RatesBlock-section .RatesBlock-section__block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: auto;
+    padding: 25px 40px;
+  }
+
+  .RatesBlock-section__block button {
+    margin-top: 10px;
+    width: 60%;
+    text-align: start;
+    padding: 10px 0;
+    text-align: center;
+  }
+}

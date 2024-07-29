@@ -1,7 +1,9 @@
 import React from "react";
 import "../Tokenblock/Tokenblock.css";
+import { useNavigate } from "react-router-dom";
 
 const Tokenblock = () => {
+  const navigate = useNavigate();
   return (
     <div className="container">
       <div className="section">
@@ -46,7 +48,12 @@ const Tokenblock = () => {
         </div>
         <div className="btn-block">
           <button className="btn">Начать</button>
-          <button className="btn">Узнать больше</button>
+          <button
+            className="btn"
+            onClick={() => navigate("/verification-center")}
+          >
+            Узнать больше
+          </button>
         </div>
       </div>
     </div>
