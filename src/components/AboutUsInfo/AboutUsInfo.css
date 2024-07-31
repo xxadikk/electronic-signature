@@ -29,3 +29,44 @@
   border-radius: 16px;
   padding: 60px 90px;
 }
+
+@media (min-width: 710px) and (max-width: 940px) {
+  .aboutUsInfo * h4 {
+    font-size: 24px;
+  }
+  .aboutUsInfo__body {
+    padding: 50px 60px;
+  }
+  .aboutUsInfo {
+    margin: 30px 0 80px 0;
+  }
+}
+@media (min-width: 410px) and (max-width: 710px) {
+  .aboutUsInfo * h4 {
+    font-size: 22px;
+  }
+  .aboutUsInfo__body {
+    padding: 30px 30px;
+  }
+  .aboutUsInfo {
+    margin: 30px 0 60px 0;
+  }
+  .aboutUsInfo * span {
+    font-size: 18px;
+  }
+}
+@media (max-width: 410px) {
+  .aboutUsInfo * h4 {
+    font-size: 20px;
+  }
+  .aboutUsInfo__body {
+    gap: 10px;
+    padding: 15px 20px;
+  }
+  .aboutUsInfo {
+    margin: 30px 0 60px 0;
+  }
+  .aboutUsInfo * span {
+    font-size: 13px;
+  }
+}

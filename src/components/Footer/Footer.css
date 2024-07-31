@@ -206,4 +206,7 @@
     flex-direction: column;
     gap: 10px 3px;
   }
+  .right-block {
+    width: auto;
+  }
 }
