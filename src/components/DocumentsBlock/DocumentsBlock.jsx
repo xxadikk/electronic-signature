@@ -44,31 +44,55 @@ const DocumentsBlock = () => {
                   Регламент Удостоверяющего ЦентраОсОО «Смарт Счет»
                 </a>
               </div>
-              {/* <div className="documentsBlock-document">
+              <div className="documentsBlock-document">
                 <div>
-                  <img src={pdfIcon} alt="pdfIcon" />
+                  <img src={docIcon} alt="docIcon" />
                 </div>
-                <a target="_blank" href="#">
-                  Регламент Удостоверяющего центра
+                <a
+                  target="_blank"
+                  href="https://cbd.minjust.gov.kg/111635/edition/985628/ru"
+                >
+                  Закон КР «Об электронной подписи» от 19 июля 2017 года № 128
                 </a>
               </div>
               <div className="documentsBlock-document">
                 <div>
-                  <img src={pdfIcon} alt="pdfIcon" />
+                  <img src={docIcon} alt="docIcon" />
                 </div>
-                <a target="_blank" href="#">
-                  Руководство по заполнению заявки
+                <a
+                  target="_blank"
+                  href="https://cbd.minjust.gov.kg/451081/edition/1118095/ru"
+                >
+                  Постановление Правительства КР «О некоторых вопросах,
+                  связанных с использованием электронной подписи» от 31 декабря
+                  2019 года № 742
                 </a>
               </div>
               <div className="documentsBlock-document">
                 <div>
-                  <img src={pdfIcon} alt="pdfIcon" />
+                  <img src={docIcon} alt="docIcon" />
                 </div>
-                <a target="_blank" href="#">
-                  Краткая инструкция по заполнению заявки
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/152pNaTe2lOw5uHzcvUdIabxby9g4SRzQ/view?usp=sharing"
+                >
+                  Положение о Главном (корневом) удостоверяющем центре
+                  Министерства цифрового развития Кыргызской Республики
                 </a>
               </div>
               <div className="documentsBlock-document">
+                <div>
+                  <img src={docIcon} alt="docIcon" />
+                </div>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1D5eiBiTWxVayHWbntWM4z95brFRxufR3/view?usp=sharing"
+                >
+                  Регламент Главного (корневого) удостоверяющего центра
+                  Министерства цифрового развития Кыргызской Республики
+                </a>
+              </div>
+              {/*<div className="documentsBlock-document">
                 <div>
                   <img src={pdfIcon} alt="pdfIcon" />
                 </div>

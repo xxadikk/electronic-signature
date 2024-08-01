@@ -46,10 +46,50 @@
   flex-direction: row;
   align-items: center;
   gap: 12px;
-  width: 30%;
+  width: auto;
   transition: 500ms;
 }
 
 .documentsBlock-document a:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 940px) and (max-width: 1300px) {
+  .documentsBlock__body {
+    width: 90%;
+  }
+}
+@media (min-width: 710px) and (max-width: 940px) {
+  .documentsBlock__body {
+    width: 100%;
+  }
+  .documentsBlock * h3 {
+    font-size: 24px;
+  }
+  .documentsBlock * a {
+    font-size: 18px;
+  }
+}
+@media (min-width: 410px) and (max-width: 710px) {
+  .documentsBlock__body {
+    width: 100%;
+  }
+  .documentsBlock * h3 {
+    font-size: 22px;
+  }
+  .documentsBlock * a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 410px) {
+  .documentsBlock__body {
+    width: 100%;
+  }
+  .documentsBlock * h3 {
+    font-size: 20px;
+  }
+  .documentsBlock * a {
+    font-size: 15px;
+  }
 }

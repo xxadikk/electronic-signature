@@ -2,10 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 
 .RatesBlock {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 .RatesBlock * img {
-  width: 80%;
+  width: 100%;
+}
+.RatesBlock-section__block div .jacarta-icon {
+  width: 60%;
 }
 .RatesBlock * {
   font-size: 20px;

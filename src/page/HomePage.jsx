@@ -8,10 +8,10 @@ import ApplicationBlock from "../components/ApplicationBlock/ApplicationBlock";
 const HomePage = () => {
   return (
     <>
+      <RatesBlock />
       <Tokenblock />
       <Securityblock />
       <Advantagesblock />
-      <RatesBlock />
       <ApplicationBlock />
       {/* <Securityblock/>
             <Advantagesblock/>

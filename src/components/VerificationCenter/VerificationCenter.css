@@ -26,6 +26,18 @@
   color: #000000;
   font-family: "Inter", sans-serif;
 }
+
+.verificationCenter * a {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.33000001311302185px;
+  color: #1b72ff;
+}
+.verificationCenter * a:hover {
+  text-decoration: underline;
+}
 .verificationCenter * p {
   font-family: "Inter", sans-serif;
   color: #000000;
@@ -70,4 +82,88 @@
   gap: 16px;
   background-color: #f6f7f8;
   border-radius: 16px;
+}
+
+@media (min-width: 940px) and (max-width: 1300px) {
+  .verificationCenter-blocks {
+    width: 90%;
+  }
+}
+
+@media (min-width: 710px) and (max-width: 940px) {
+  .verificationCenter-blocks {
+    width: 100%;
+  }
+  .verificationCenter * h4 {
+    font-size: 24px;
+  }
+  .verificationCenter * span {
+    font-size: 18px;
+  }
+  .verificationCenter * h3 {
+    font-size: 24px;
+  }
+  .verificationCenter * a {
+    font-size: 18px;
+  }
+  .verificationCenter * p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 410px) and (max-width: 710px) {
+  .verificationCenter-blocks {
+    width: 100%;
+  }
+  .verificationCenter * h4 {
+    font-size: 22px;
+  }
+  .verificationCenter * span {
+    font-size: 16px;
+  }
+  .verificationCenter * h3 {
+    font-size: 22px;
+  }
+  .verificationCenter * a {
+    font-size: 16px;
+  }
+  .verificationCenter-block-cards {
+    flex-direction: column;
+  }
+  .verificationCenter-block-card {
+    width: auto;
+    padding: 26px;
+  }
+  .verificationCenter * p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 410px) {
+  .verificationCenter-block-card {
+    width: auto;
+    padding: 24px;
+  }
+  .verificationCenter-blocks {
+    width: 100%;
+  }
+  .verificationCenter * h4 {
+    font-size: 20px;
+  }
+  .verificationCenter * span {
+    font-size: 15px;
+  }
+  .verificationCenter * h3 {
+    font-size: 20px;
+  }
+  .verificationCenter * a {
+    font-size: 14px;
+  }
+  .verificationCenter-block-cards {
+    flex-direction: column;
+  }
+  .verificationCenter-block-card {
+    width: auto;
+  }
+  .verificationCenter * p {
+    font-size: 15px;
+  }
 }

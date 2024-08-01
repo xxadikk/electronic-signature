@@ -22,6 +22,27 @@ const VerificationCenter = () => {
                 получения ЭП, необходимо предоставить Документы, в соответствии
                 с утвержденным перечнем.
               </span>
+              <span>
+                Сертификат корневого удостоверяющего центра —{" "}
+                <a
+                  href="/root_certificate_2012.cer"
+                  download="root_certificate_2012.cer"
+                >
+                  ROOT_Certificate_2012
+                </a>{" "}
+              </span>
+              <span>
+                Список отозванных сертификатов —{" "}
+                <a href="/crl-2.crl" download="crl-2.crl">
+                  crl
+                </a>{" "}
+              </span>
+              <span>
+                Сертификаты аккредитованных удостоверяющих центров —{" "}
+                <a href="/smart.cer" download="smart.cer">
+                  Smart
+                </a>{" "}
+              </span>
             </div>
             <div className="verificationCenter-block">
               <h4>Прейскурант на услуги Удостоверяющего центра</h4>
@@ -37,8 +58,11 @@ const VerificationCenter = () => {
                 <div className="verificationCenter-block-card">
                   <p>
                     Генерация ключей ЭП с записью на физический защищенный
-                    носитель "RuToken"
+                    носитель "Jacarta"
                   </p>
+                  <a href="/certificate.crl" download="certificate.crl">
+                    Скачать CRL файл
+                  </a>
                   <h3>4200 сом/1 ед</h3>
                   <span>на 1 год</span>
                 </div>

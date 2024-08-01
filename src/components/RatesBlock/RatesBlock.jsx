@@ -1,7 +1,7 @@
 import React from "react";
 import "../RatesBlock/RatesBlock.css";
 import workIcon from "../assets/workIcon.svg";
-import jacartaIcon from "../assets/jacartaIcon.svg";
+import jacartaIcon from "../assets/jacarta.png";
 import edsIcon from "../assets/edsIcon.svg";
 
 const RatesBlock = () => {
@@ -9,9 +9,7 @@ const RatesBlock = () => {
     <div className="RatesBlock">
       <div className="container">
         <div className="RatesBlock__body">
-          <div className="container-title">
-            <h4>Тарифы</h4>
-          </div>
+          <div className="container-title">{/* <h4>Тарифы</h4> */}</div>
           <div className="RatesBlock-section">
             <div className="RatesBlock-section__block">
               <div>
@@ -24,7 +22,11 @@ const RatesBlock = () => {
             </div>
             <div className="RatesBlock-section__block">
               <div>
-                <img src={jacartaIcon} alt="jacartaIcon" />
+                <img
+                  className="jacarta-icon"
+                  src={jacartaIcon}
+                  alt="jacartaIcon"
+                />
               </div>
               <span>Jacarta</span>
               <h5>3000 сом</h5>
@@ -33,7 +35,11 @@ const RatesBlock = () => {
             </div>
             <div className="RatesBlock-section__block block-black">
               <div>
-                <img src={workIcon} alt="workIcon" />
+                <img
+                  className="jacarta-icon"
+                  src={jacartaIcon}
+                  alt="workIcon"
+                />
               </div>
               <span>Jacarta+ЭЦП</span>
               <h5>4200 сом</h5>
